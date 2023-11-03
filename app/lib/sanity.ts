@@ -8,6 +8,5 @@ export const client = createClient({
     projectId,
     dataset,
     apiVersion,
-    useCdn: true,
-    token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
+    useCdn: true
 })
